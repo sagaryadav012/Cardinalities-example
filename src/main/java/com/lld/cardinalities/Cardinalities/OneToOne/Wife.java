@@ -2,7 +2,7 @@ package com.lld.cardinalities.Cardinalities.OneToOne;
 
 import jakarta.persistence.*;
 
-//@Entity
+@Entity
 public class Wife {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
